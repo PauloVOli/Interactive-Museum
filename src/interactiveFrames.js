@@ -8,10 +8,11 @@ export function createInteractiveFrames(scene) {
   const quadrosData = [
     {
       position: new THREE.Vector3(-0.4, 1.75, -4.512305656020708), 
-      texture: '/assets/textures/rodaDeSamba.jpg',
-      title: 'Amanhecer Moderno',
-      description: 'Uma releitura digital da aurora sobre concreto e vidro.',
-      video: '/assets/videos/quadro1.mp4'
+      texture: '/assets/textures/capaTexto1.jpg',
+      title: 'A cidade que silencia os sentidos',
+      description: '"Nossa casa veio deixando de ser um lar, no sentido de construir uma extensao de nossas emocoes e sentimentos. Veio se transformando numa maquina de morar."',
+      video: '/videos/videoTexto1.mp4',
+      type: 'video'
     },
     {
       position: new THREE.Vector3(4.57459428642441, 1.75, -0.355184376370867), 
@@ -106,24 +107,26 @@ export function createInteractiveFrames(scene) {
     },
     {
       position: new THREE.Vector3(-4.647948626949344, 1.75, -6.605875379156501),
-      texture: '/assets/textures/commingSoon.jpg',
-      title: 'Conexões Modernas',
-      description: 'Interligação entre pessoas e tecnologia na era digital.',
-      video: '/assets/videos/quadro15.mp4'
+      texture: '/assets/textures/murosRuidos.jpg',
+      title: 'Entre Muros e Ruídos',
+      description: '"Entre muros e ruidos, o lar perdeu o aconchego. A casa virou maquina, a cidade, concreto. O humano que antes habitava o espaco, agora apenas o ocupa."',
+      image: '/assets/textures/murosRuidos.jpg',
+      type: 'image'
     },
     {
       position: new THREE.Vector3(-0.8098337264859249, 1.75, -8.014934976934324),
-      texture: '/assets/textures/commingSoon.jpg',
-      title: 'Visões do Futuro',
-      description: 'Exploração artística das possibilidades futuras na tecnologia.',
-      video: '/assets/videos/quadro16.mp4'
+      texture: '/assets/textures/oCorpoQueEsqueceu.jpg',
+      title: 'O corpo que esqueceu de sentir',
+      description: 'Talvez seja preciso reaprender a ver, a cheirar, a tocar. Reeducuar os sentidos para reumanizar o mundo',
+      image: '/assets/textures/oCorpoQueEsqueceu.jpg',
+      type: 'image'
     },
     {
       position: new THREE.Vector3(3.1962105874934075, 1.75, -7.392358818979284),
       texture: '/assets/textures/commingSoon.jpg',
       title: 'Metrópole Digital',
       description: 'Uma representação vibrante da vida urbana digitalizada.',
-      video: '/assets/videos/quadro17.mp4'
+      //video: '/assets/videos/quadro17.mp4'
     }
   ];
 

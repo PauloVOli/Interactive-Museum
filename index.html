@@ -8,12 +8,14 @@
   <body>
     <canvas id="webgl"></canvas>
 
-    <div id="infoPanel" class="hidden">
-      <h2 id="infoTitle"></h2>
-      <p id="infoDescription"></p>
-      <video id="infoVideo" width="320" controls></video>
-      <button id="closePanel">Fechar</button>
-    </div>
+  <div id="infoPanel">
+    <h2 id="infoTitle"></h2>
+    <p id="infoDescription"></p>
+    <video id="infoVideo" autoplay muted controls style="display:none;"></video>
+    <img id="infoImage" style="display:none;" />
+    <button id="closePanel">Fechar</button>
+  </div>
+
 
     <script type="module" src="/src/main.js"></script>
   </body>
