@@ -15,7 +15,7 @@ export function setupInfoPanel() {
     if (data.type === 'video' && data.video) {
       video.src = data.video;
       video.style.display = 'block';
-      video.muted = true; // necessário para autoplay
+      video.muted = false; // necessário para autoplay
       video.play().catch(() => {}); // evita erro de autoplay
       img.style.display = 'none';
     } else {
