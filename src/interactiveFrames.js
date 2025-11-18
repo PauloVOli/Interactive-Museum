@@ -123,10 +123,11 @@ export function createInteractiveFrames(scene) {
     },
     {
       position: new THREE.Vector3(3.1962105874934075, 1.75, -7.392358818979284),
-      texture: '/assets/textures/commingSoon.jpg',
-      title: 'Metrópole Digital',
-      description: 'Uma representação vibrante da vida urbana digitalizada.',
-      //video: '/assets/videos/quadro17.mp4'
+      texture: '/assets/textures/conclusaoTexto1.JPG',
+      title: 'Esperança!',
+      description: 'Se a modernidade anestesiou o corpo e transformou a vida em função, ainda resta em nos um sopro de resistencia. O mesmo corpo que mecaniza gestos tambem pode despertar.',
+      image: '/assets/textures/conclusaoTexto1.JPG',
+      type: 'image'
     }
   ];
 
